@@ -387,6 +387,9 @@ if SLOW:
     check('dB example: crossing SNR', 'Sec IV-B', 1.1, L_['cross_db'], 0.1)
     check('dB example: fusion-layer share at that crossing', 'Sec IV-B', 0.0, L_['cross_share'], 0.02)
 
+    # Appendix S-IV quotes the maxima of S4 - S3 from quantiles.py (200 x 100 x
+    # 3000 grid): 0.0397 at n = 2 and 0.0391 at n = 3; that script prints them in
+    # about 17 minutes and is not duplicated here.
     # Fig. 4: the gap opens well to the left of the threshold
     from baselines import evaluate
     r = evaluate(2, D_LOGIT, 0.01, np.array([0.0, 0.08, 0.099]), ngrid=8001)
