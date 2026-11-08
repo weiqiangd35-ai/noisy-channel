@@ -1,7 +1,6 @@
 # Code for "Decision Fusion over Hard-Decision Links: The Reachable Set and the Value of Randomization"
 
-W. Dong and J. Zhou. Supplementary material: the code that computes every
-number, table and figure in the paper and its supplementary PDF.
+W. Dong and J. Zhou. The code that computes every number, table and figure in the paper and in its supplementary material.
 
 Python 3 with NumPy, SciPy and Matplotlib; nothing to install beyond those.
 Tested with Python 3.13, NumPy 2.5, SciPy 1.18 and Matplotlib 3.11. Run every
